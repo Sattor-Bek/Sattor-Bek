@@ -1,0 +1,16 @@
+/* TODO: Build layout for campuses page */
+.cards {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:16px;
+}
+
+.map-container{
+  display:flex;
+}
+.map{
+  height:300px;
+  position:sticky;
+  top:30px;
+
+}
